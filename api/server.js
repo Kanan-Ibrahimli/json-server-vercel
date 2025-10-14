@@ -5,7 +5,11 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const auth = require('json-server-auth');
 
-server.use(cors()); 
+server.use(cors({
+  origin: 'https://taskly-skill-up-project.vercel.app/',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+})); 
 
 server.use(middlewares);
 server.db = router.db;
