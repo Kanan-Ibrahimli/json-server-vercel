@@ -1,9 +1,336 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "email": "kanan@mail.com",
+      "password": "$2a$10$VLV0T67pwPzSS9eypS98/.2jdZACu2t0oNQZlDoeQ.gNet7iy81wG",
+      "name": "kanan",
+      "phoneNumber": "",
+      "gender": "male",
+      "dob": "2001-02-12",
+      "language": "Hungarian",
+      "about": "",
+      "country": "az",
+      "id": 1
+    },
+    {
+      "email": "test@mail.com",
+      "password": "$2a$10$rDiKXuHxBNN/04l88fsrdOCD1ESiR6AiAIVkSU8zBL4qHRf1aSo7u",
+      "name": "test",
+      "phoneNumber": "",
+      "gender": "male",
+      "dob": "2001-12-12",
+      "language": "Ukranian",
+      "about": "",
+      "country": "az",
+      "id": 2
+    },
+    {
+      "email": "asd@asd.com",
+      "password": "$2a$10$rZFQfOh6CNZs5BzXRhXQn.HXcQWC.RYyK0gPdZe1367TUAjP8HsG2",
+      "name": "asd",
+      "phoneNumber": "",
+      "gender": "male",
+      "dob": "2009-01-01",
+      "language": "Azerbaijani",
+      "about": "",
+      "country": "Andorra",
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "columns": [
+    {
+      "id": "f2f735e9-e07b-4bbd-9e13-fd585a8963f5",
+      "title": "test column",
+      "userId": "2",
+      "order": 2
+    },
+    {
+      "id": "fdfd1fc0-3bd0-46da-b3f6-287187f7fac0",
+      "title": "sadasdasda",
+      "userId": "2",
+      "order": 1
+    },
+    {
+      "id": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "title": "to do",
+      "userId": "1",
+      "order": 3
+    },
+    {
+      "id": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "title": "in progress",
+      "userId": "1",
+      "order": 2
+    },
+    {
+      "id": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "title": "done",
+      "userId": "1",
+      "order": 4
+    },
+    {
+      "id": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "title": "in review",
+      "userId": "1",
+      "order": 1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "tasks": [
+    {
+      "title": "test11",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1",
+      "description": "add descriptiondfwefewf",
+      "id": "a297af48-ceb1-4b3a-90a5-3e029393af03"
+    },
+    {
+      "id": "0bc0be87-e359-48ad-a249-b8daac855323",
+      "title": "test12",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "id": "fe6537c4-11a3-485b-a6b0-799cac6d80f5",
+      "title": "test13",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "id": "50b61359-66a0-428e-abd8-cea9bc654941",
+      "title": "test14",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "id": "5954e809-afb5-4d0f-b9e7-cb04083de0fa",
+      "title": "test15",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "id": "2fd2089e-9462-476b-9129-67f8b2b8c6eb",
+      "title": "test16",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "id": "65e15cf4-1493-4bd4-908d-a28c66e0a245",
+      "title": "test17",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "id": "04dd5a32-cd53-4f7d-bda6-d59772adc086",
+      "title": "test18",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "id": "8ce36a00-779e-4cb1-b7d8-21bf1ffad525",
+      "title": "test19",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "title": "test20",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1",
+      "id": "33a09969-da6e-4b27-86ad-c2e2cc80e6b0"
+    },
+    {
+      "title": "test21",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1",
+      "id": "4fa076e3-6d0f-4b86-b29f-68f1c4db0d0b"
+    },
+    {
+      "id": "f12876e6-f76a-46c7-a4b8-96de6e8ebfd4",
+      "title": "test22",
+      "columnId": "10700ab0-7353-4ed0-9669-a2aa5c313025",
+      "userId": "1"
+    },
+    {
+      "title": "test23",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1",
+      "id": "e15a2fde-1365-46ac-a5db-e393af37f86b"
+    },
+    {
+      "title": "test24",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1",
+      "id": "c19bb2f2-6184-4319-9384-b323bd5209cf"
+    },
+    {
+      "title": "test25",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1",
+      "id": "b2b25123-ee53-48c6-a94e-1d908ffee29b"
+    },
+    {
+      "title": "test26",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1",
+      "description": "dadsfsadf",
+      "id": "1e2c7dbc-e2a0-43be-b25c-f3ce3a2eff82"
+    },
+    {
+      "title": "test27",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1",
+      "id": "3f4eeff9-c721-4c0a-8768-669e557ca035"
+    },
+    {
+      "title": "test28",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1",
+      "id": "3a74289b-6744-4202-91ad-1f4e5c861c0b"
+    },
+    {
+      "title": "test29",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1",
+      "id": "fa100200-f462-4022-a5c0-aa67653e9588"
+    },
+    {
+      "title": "test30",
+      "columnId": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "userId": "1",
+      "description": "oaskfnew oekfn weokf w",
+      "id": "6f254b51-4499-4443-827c-3a45d7b31d58"
+    },
+    {
+      "title": "test1",
+      "columnId": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "userId": "1",
+      "id": "d4270a9b-d838-45cd-949d-60a106e77f85"
+    },
+    {
+      "id": "51e4ce90-85f1-4f45-8ec8-258ea9f0c6db",
+      "title": "test2",
+      "columnId": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "userId": "1"
+    },
+    {
+      "id": "c63ca0aa-ac14-4637-bb72-f02dd1c86048",
+      "title": "test3",
+      "columnId": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "userId": "1"
+    },
+    {
+      "id": "724a2895-6305-47f7-81d6-7c5cb7ff0870",
+      "title": "test4",
+      "columnId": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "userId": "1"
+    },
+    {
+      "id": "f731f203-b45b-46e8-95af-32633343896e",
+      "title": "test5",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1"
+    },
+    {
+      "id": "9c7dbb46-05cd-4a5f-9c8e-be3ee8df52a1",
+      "title": "test6",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1"
+    },
+    {
+      "id": "35866db3-f9fa-4018-8ee8-583ed61c98de",
+      "title": "test7",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1"
+    },
+    {
+      "id": "492fa6d1-7ceb-490b-b6ae-ca36c877b282",
+      "title": "test8",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1"
+    },
+    {
+      "id": "5957d97e-d9b8-4148-b37a-ee6ea0ddb050",
+      "title": "test9",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1"
+    },
+    {
+      "id": "2f9344b1-d409-4725-affb-ddc10e56a898",
+      "title": "test10",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1"
+    },
+    {
+      "id": "967dbdcc-c395-45a1-86bd-04372b946aed",
+      "title": "test31",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1"
+    },
+    {
+      "id": "e78aac64-7ee3-482c-b990-ee1eeff97eb0",
+      "title": "test32",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1"
+    },
+    {
+      "id": "b35ac18e-65ba-4903-b48c-c1044359ab9d",
+      "title": "test33",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1"
+    },
+    {
+      "id": "1750f296-9263-42be-a18a-f4c0e60175e2",
+      "title": "test34",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1"
+    },
+    {
+      "id": "0f5b5abf-a9dd-46e8-8e6b-e3e08b980c6f",
+      "title": "test35",
+      "columnId": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "userId": "1"
+    },
+    {
+      "id": "8a12b9c8-4872-4a74-9279-62772954b10e",
+      "title": "test36",
+      "columnId": "920453f7-b84c-4e85-9631-fc7ced20e0a2",
+      "userId": "1"
+    },
+    {
+      "title": "test40",
+      "columnId": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "userId": "1",
+      "id": "ec0c0d29-71a9-4cf7-92ef-4294bbd2bb7f"
+    },
+    {
+      "id": "0d867605-96b4-44ca-9370-bb2a8e02b8a5",
+      "title": "test37",
+      "columnId": "9f0d9986-bf77-46e9-98ad-cc00cc1a6945",
+      "userId": "1"
+    },
+    {
+      "title": "test38",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1",
+      "id": "17fb5b52-fa45-4f22-b270-65ca6eaef12e"
+    },
+    {
+      "title": "test39",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1",
+      "id": "e66cab85-c669-4c01-aee4-22f78599739e"
+    },
+    {
+      "id": "ae2f984a-bc98-457a-8577-5f115754e5c0",
+      "title": "test41",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1"
+    },
+    {
+      "id": "1bdc9e5a-1722-4624-8c80-b5bd710c3976",
+      "title": "test42",
+      "columnId": "c5c34944-2d8b-4a83-9cac-67383c26bd49",
+      "userId": "1"
+    }
+  ]
 }
+
